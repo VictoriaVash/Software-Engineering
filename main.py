@@ -2,7 +2,7 @@ import pprint
 
 import requests
 
-from settings import hug_token
+hug_token = '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'
 
 API_URL = "https://api-inference.huggingface.co/models/bhadresh-savani/bert-base-go-emotion"
 headers = {"Authorization": f"Bearer {hug_token}"}
